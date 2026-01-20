@@ -3,6 +3,7 @@ class Student {
     int id;
     int age;
     String name;
+    String status;
   void printDetails() {
   String college = "ABC College";
  System.out.println("ID: " + id);
@@ -14,6 +15,7 @@ class Student {
         s1.id = 1251500584;
         s1.age = 18;
         s1.name = "Gourang";
+        s1.status = "active";
         s1.printDetails();
     }
 }
